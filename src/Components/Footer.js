@@ -22,10 +22,13 @@ const Footer = ({ data }) => {
           <ul className="copyright">
             <li>
               Published by
-              <a style={{margin: "0 4px"}} href="https://www.youtube.com/watch?v=83RUhxsfLWs">
-                Benjamin
+              <a
+                style={{ margin: "0 4px" }}
+                href="https://www.youtube.com/watch?v=UtF6Jej8yb4"
+              >
+                Armin
               </a>
-              on February 2021.
+              on December 2021.
             </li>
           </ul>
         </div>
