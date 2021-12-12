@@ -60,7 +60,7 @@ const App = () => {
           school: "Faculty of information technologies Mostar",
           degree: "Student, Software engineering",
           graduated: "Current",
-          description: "Second year of bachelor science degree",
+          description: "Second year of Bachelor science degree",
         },
         {
           school: "Electrical Engineering High School - Sarajevo",
@@ -73,7 +73,7 @@ const App = () => {
           degree: "Finished course for Java's framework Spring.",
           graduated: "Decembber 2021",
           description:
-            "Main focus was developing an backend for movie application",
+            "Main focus was developing backend for movie application",
         },
       ],
       work: [

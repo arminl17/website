@@ -20,7 +20,7 @@ const About = ({ data }) => {
           <img
             className="profile-pic"
             src={profilepic}
-            alt="Benjamin's Profile Pic"
+            alt="Armin's Profile Pic"
           />
         </div>
         <div className="nine columns main-col">
