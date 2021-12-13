@@ -29,7 +29,7 @@ const App = () => {
       },
       website: "",
       resumedownload:
-        "https://drive.google.com/file/d/1eq9pX_pglsrQuU-DG-9Y2b3Qa2OH7vCm/view?usp=sharing",
+        "https://drive.google.com/file/d/1W9AeseWuvyYNOSnEtCx_KF-xabF3_74T/view?usp=sharing",
       social: [
         {
           name: "facebook",
@@ -71,7 +71,7 @@ const App = () => {
         {
           school: "EduBits course - Spring boot",
           degree: "Finished course for Java's framework Spring.",
-          graduated: "Decembber 2021",
+          graduated: "December 2021",
           description:
             "Main focus was developing backend for movie application",
         },
