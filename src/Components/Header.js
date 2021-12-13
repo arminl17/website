@@ -65,7 +65,7 @@ const Header = ({ data }) => {
       <div className="row banner">
         <div className="banner-text">
           <h1 className="responsive-headline">
-            <TypeWriter typing={0.5}>console.log("HelloWorld")</TypeWriter>
+            <TypeWriter typing={0.5}>console.log("Hello World")</TypeWriter>
           </h1>
           <h3>
             {name ? `I'm ${name}.` : null} Based in {city}.{" "}
