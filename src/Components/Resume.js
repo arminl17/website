@@ -71,11 +71,11 @@ const Resume = ({ data }) => {
         <div className="nine columns main-col">
           <ul className="skill-row">{skills}</ul>
         </div>
-      </div>
-      <div id="go-top">
-        <a className="smoothscroll" title="Back to Top" href="#home">
-          <i className="icon-up-open"></i>
-        </a>
+        <div id="go-top">
+          <a className="smoothscroll" title="Back to Top" href="#home">
+            <i className="icon-up-open"></i>
+          </a>
+        </div>
       </div>
     </section>
   );

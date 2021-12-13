@@ -51,6 +51,11 @@ const About = ({ data }) => {
             </div>
           </div>
         </div>
+        <div id="go-top">
+          <a className="smoothscroll" title="Back to Top" href="#home">
+            <i className="icon-up-open"></i>
+          </a>
+        </div>
       </div>
     </section>
   );
