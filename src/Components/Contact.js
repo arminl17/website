@@ -98,7 +98,7 @@ const Contact = ({ data }) => {
                   onChange={(e) => setMessage(e.target.value)}
                   id="contactMessage"
                   name="contactMessage"
-                  style={{ resize: "vertical" }}
+                  style={{ resize: "none" }}
                 />
               </div>
 
