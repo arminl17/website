@@ -42,11 +42,6 @@ const Portfolio = ({ data }) => {
             {projects}
           </div>
         </div>
-        <p className="scrolldown">
-          <a className="smoothscroll" href="#home">
-            <i className="icon-up-open"></i>
-          </a>
-        </p>
       </div>
     </section>
   );
