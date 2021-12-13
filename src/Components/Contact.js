@@ -98,7 +98,7 @@ const Contact = ({ data }) => {
                   onChange={(e) => setMessage(e.target.value)}
                   id="contactMessage"
                   name="contactMessage"
-                  style={{resize: "vertical"}}
+                  style={{ resize: "vertical" }}
                 />
               </div>
 
@@ -131,6 +131,11 @@ const Contact = ({ data }) => {
             </p>
           </div>
         </aside>
+        <div id="go-top">
+          <a className="smoothscroll" title="Back to Top" href="#home">
+            <i className="icon-up-open"></i>
+          </a>
+        </div>
       </div>
     </section>
   );

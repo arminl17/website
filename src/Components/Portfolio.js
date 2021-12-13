@@ -2,12 +2,12 @@ import React from "react";
 
 const Portfolio = ({ data }) => {
   const setNewLocation = (newLocation) => {
-    window.location.href = newLocation
-  }
+    window.location.href = newLocation;
+  };
 
   if (data) {
     var projects = data.projects.map(function (projects) {
-      var projectImage = "images/portfolio/" + projects.image
+      var projectImage = "images/portfolio/" + projects.image;
       return (
         <div key={projects.title} className="columns portfolio-item">
           <div className="item-wrap">
@@ -20,7 +20,7 @@ const Portfolio = ({ data }) => {
                 </div>
               </div>
               <div className="link-icon">
-                <i className="fa fa-link"/>
+                <i className="fa fa-link" />
               </div>
             </a>
           </div>
@@ -42,6 +42,11 @@ const Portfolio = ({ data }) => {
             {projects}
           </div>
         </div>
+      </div>
+      <div id="go-top">
+        <a className="smoothscroll" title="Back to Top" href="#home">
+          <i className="icon-up-open"></i>
+        </a>
       </div>
     </section>
   );

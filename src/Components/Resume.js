@@ -26,7 +26,7 @@ const Resume = ({ data }) => {
         </div>
       );
     });
-    var skills = data.skills.map(skill => {
+    var skills = data.skills.map((skill) => {
       return (
         <li key={skill} className="skill-column">
           <em>{skill}</em>
@@ -69,8 +69,13 @@ const Resume = ({ data }) => {
         </div>
 
         <div className="nine columns main-col">
-            <ul className="skill-row">{skills}</ul>
+          <ul className="skill-row">{skills}</ul>
         </div>
+      </div>
+      <div id="go-top">
+        <a className="smoothscroll" title="Back to Top" href="#home">
+          <i className="icon-up-open"></i>
+        </a>
       </div>
     </section>
   );

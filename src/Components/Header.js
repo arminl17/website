@@ -11,7 +11,7 @@ const Header = ({ data }) => {
       return (
         <li key={network.name}>
           <a href={network.url}>
-            <i className={network.className}/>
+            <i className={network.className} />
           </a>
         </li>
       );
@@ -65,10 +65,11 @@ const Header = ({ data }) => {
       <div className="row banner">
         <div className="banner-text">
           <h1 className="responsive-headline">
-            <TypeWriter typing={0.5}>{name ? `I'm ${name}.` : null}</TypeWriter>
+            <TypeWriter typing={0.5}>console.log("HelloWorld")</TypeWriter>
           </h1>
           <h3>
-            Based in {city}. <span>{occupation}</span>. {description}.
+            {name ? `I'm ${name}.` : null} Based in {city}.{" "}
+            <span>{occupation}</span>. {description}.
           </h3>
           <hr />
           <ul className="social">{networks}</ul>
